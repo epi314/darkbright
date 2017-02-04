@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46D1D01D883835F12A72249A /* Pods_darkbrightTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35915765877DD9B1E83B0F72 /* Pods_darkbrightTests.framework */; };
+		8F9974161E460D1D003B70CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9974151E460D1D003B70CD /* AppDelegate.swift */; };
+		8F9974181E460D1D003B70CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9974171E460D1D003B70CD /* ViewController.swift */; };
+		8F99741B1E460D1D003B70CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9974191E460D1D003B70CD /* Main.storyboard */; };
+		8F99741D1E460D1D003B70CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F99741C1E460D1D003B70CD /* Assets.xcassets */; };
+		8F9974201E460D1D003B70CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F99741E1E460D1D003B70CD /* LaunchScreen.storyboard */; };
+		8F99742B1E460D1D003B70CD /* darkbrightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F99742A1E460D1D003B70CD /* darkbrightTests.swift */; };
+		8F9974361E460D1D003B70CD /* darkbrightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9974351E460D1D003B70CD /* darkbrightUITests.swift */; };
+		9D8007C3A175F1EE3A07CA4E /* Pods_darkbright.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1619A81E2E0B67F794E3EAD /* Pods_darkbright.framework */; };
+		B503E9511F719E2115629FD7 /* Pods_darkbrightUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5937B97D32E7074FFBDAEEBA /* Pods_darkbrightUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F9974271E460D1D003B70CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F99740A1E460D1D003B70CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F9974111E460D1D003B70CD;
+			remoteInfo = darkbright;
+		};
+		8F9974321E460D1D003B70CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F99740A1E460D1D003B70CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F9974111E460D1D003B70CD;
+			remoteInfo = darkbright;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04338586DF1EB841EE19B109 /* Pods-darkbrightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-darkbrightUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-darkbrightUITests/Pods-darkbrightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		129CA89029C39151FB990DE0 /* Pods-darkbright.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-darkbright.release.xcconfig"; path = "Pods/Target Support Files/Pods-darkbright/Pods-darkbright.release.xcconfig"; sourceTree = "<group>"; };
+		1C16E7222ED95435F3635302 /* Pods-darkbright.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-darkbright.debug.xcconfig"; path = "Pods/Target Support Files/Pods-darkbright/Pods-darkbright.debug.xcconfig"; sourceTree = "<group>"; };
+		35915765877DD9B1E83B0F72 /* Pods_darkbrightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_darkbrightTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5937B97D32E7074FFBDAEEBA /* Pods_darkbrightUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_darkbrightUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D0DCC8263461BCD717A9CF /* Pods-darkbrightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-darkbrightTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-darkbrightTests/Pods-darkbrightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F9974121E460D1D003B70CD /* darkbright.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = darkbright.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9974151E460D1D003B70CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F9974171E460D1D003B70CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F99741A1E460D1D003B70CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F99741C1E460D1D003B70CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F99741F1E460D1D003B70CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F9974211E460D1D003B70CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9974261E460D1D003B70CD /* darkbrightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = darkbrightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F99742A1E460D1D003B70CD /* darkbrightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darkbrightTests.swift; sourceTree = "<group>"; };
+		8F99742C1E460D1D003B70CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9974311E460D1D003B70CD /* darkbrightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = darkbrightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9974351E460D1D003B70CD /* darkbrightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darkbrightUITests.swift; sourceTree = "<group>"; };
+		8F9974371E460D1E003B70CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2334878C3485FB992176B07 /* Pods-darkbrightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-darkbrightTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-darkbrightTests/Pods-darkbrightTests.release.xcconfig"; sourceTree = "<group>"; };
+		C1619A81E2E0B67F794E3EAD /* Pods_darkbright.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_darkbright.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45AA551FF079CEF3956DE59 /* Pods-darkbrightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-darkbrightUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-darkbrightUITests/Pods-darkbrightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F99740F1E460D1D003B70CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8007C3A175F1EE3A07CA4E /* Pods_darkbright.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9974231E460D1D003B70CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D1D01D883835F12A72249A /* Pods_darkbrightTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F99742E1E460D1D003B70CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B503E9511F719E2115629FD7 /* Pods_darkbrightUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F9974091E460D1D003B70CD = {
+			isa = PBXGroup;
+			children = (
+				8F9974141E460D1D003B70CD /* darkbright */,
+				8F9974291E460D1D003B70CD /* darkbrightTests */,
+				8F9974341E460D1D003B70CD /* darkbrightUITests */,
+				8F9974131E460D1D003B70CD /* Products */,
+				C5430FAE94462880AE9DFD42 /* Pods */,
+				9794711FE6BE48A394146F40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F9974131E460D1D003B70CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F9974121E460D1D003B70CD /* darkbright.app */,
+				8F9974261E460D1D003B70CD /* darkbrightTests.xctest */,
+				8F9974311E460D1D003B70CD /* darkbrightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F9974141E460D1D003B70CD /* darkbright */ = {
+			isa = PBXGroup;
+			children = (
+				8F9974151E460D1D003B70CD /* AppDelegate.swift */,
+				8F9974171E460D1D003B70CD /* ViewController.swift */,
+				8F9974191E460D1D003B70CD /* Main.storyboard */,
+				8F99741C1E460D1D003B70CD /* Assets.xcassets */,
+				8F99741E1E460D1D003B70CD /* LaunchScreen.storyboard */,
+				8F9974211E460D1D003B70CD /* Info.plist */,
+			);
+			path = darkbright;
+			sourceTree = "<group>";
+		};
+		8F9974291E460D1D003B70CD /* darkbrightTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F99742A1E460D1D003B70CD /* darkbrightTests.swift */,
+				8F99742C1E460D1D003B70CD /* Info.plist */,
+			);
+			path = darkbrightTests;
+			sourceTree = "<group>";
+		};
+		8F9974341E460D1D003B70CD /* darkbrightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F9974351E460D1D003B70CD /* darkbrightUITests.swift */,
+				8F9974371E460D1E003B70CD /* Info.plist */,
+			);
+			path = darkbrightUITests;
+			sourceTree = "<group>";
+		};
+		9794711FE6BE48A394146F40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1619A81E2E0B67F794E3EAD /* Pods_darkbright.framework */,
+				35915765877DD9B1E83B0F72 /* Pods_darkbrightTests.framework */,
+				5937B97D32E7074FFBDAEEBA /* Pods_darkbrightUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5430FAE94462880AE9DFD42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C16E7222ED95435F3635302 /* Pods-darkbright.debug.xcconfig */,
+				129CA89029C39151FB990DE0 /* Pods-darkbright.release.xcconfig */,
+				79D0DCC8263461BCD717A9CF /* Pods-darkbrightTests.debug.xcconfig */,
+				B2334878C3485FB992176B07 /* Pods-darkbrightTests.release.xcconfig */,
+				C45AA551FF079CEF3956DE59 /* Pods-darkbrightUITests.debug.xcconfig */,
+				04338586DF1EB841EE19B109 /* Pods-darkbrightUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F9974111E460D1D003B70CD /* darkbright */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F99743A1E460D1E003B70CD /* Build configuration list for PBXNativeTarget "darkbright" */;
+			buildPhases = (
+				2BF7ABFF6866CB30ECD49960 /* [CP] Check Pods Manifest.lock */,
+				8F99740E1E460D1D003B70CD /* Sources */,
+				8F99740F1E460D1D003B70CD /* Frameworks */,
+				8F9974101E460D1D003B70CD /* Resources */,
+				0F777350704D81BB1784255F /* [CP] Embed Pods Frameworks */,
+				C157E5AF1B8A93C48E92A443 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = darkbright;
+			productName = darkbright;
+			productReference = 8F9974121E460D1D003B70CD /* darkbright.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F9974251E460D1D003B70CD /* darkbrightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F99743D1E460D1E003B70CD /* Build configuration list for PBXNativeTarget "darkbrightTests" */;
+			buildPhases = (
+				00813791AE58231529E33685 /* [CP] Check Pods Manifest.lock */,
+				8F9974221E460D1D003B70CD /* Sources */,
+				8F9974231E460D1D003B70CD /* Frameworks */,
+				8F9974241E460D1D003B70CD /* Resources */,
+				F118ED8B32CAF745148A6615 /* [CP] Embed Pods Frameworks */,
+				5096466A320C1AA95F4A47C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F9974281E460D1D003B70CD /* PBXTargetDependency */,
+			);
+			name = darkbrightTests;
+			productName = darkbrightTests;
+			productReference = 8F9974261E460D1D003B70CD /* darkbrightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F9974301E460D1D003B70CD /* darkbrightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9974401E460D1E003B70CD /* Build configuration list for PBXNativeTarget "darkbrightUITests" */;
+			buildPhases = (
+				BC1907C7524BC6BABB807301 /* [CP] Check Pods Manifest.lock */,
+				8F99742D1E460D1D003B70CD /* Sources */,
+				8F99742E1E460D1D003B70CD /* Frameworks */,
+				8F99742F1E460D1D003B70CD /* Resources */,
+				8C5CD8690CA561A31AAA5C8A /* [CP] Embed Pods Frameworks */,
+				B71589D892275C1A10301773 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F9974331E460D1D003B70CD /* PBXTargetDependency */,
+			);
+			name = darkbrightUITests;
+			productName = darkbrightUITests;
+			productReference = 8F9974311E460D1D003B70CD /* darkbrightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F99740A1E460D1D003B70CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Three One Four";
+				TargetAttributes = {
+					8F9974111E460D1D003B70CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					8F9974251E460D1D003B70CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F9974111E460D1D003B70CD;
+					};
+					8F9974301E460D1D003B70CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8F9974111E460D1D003B70CD;
+					};
+				};
+			};
+			buildConfigurationList = 8F99740D1E460D1D003B70CD /* Build configuration list for PBXProject "darkbright" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F9974091E460D1D003B70CD;
+			productRefGroup = 8F9974131E460D1D003B70CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F9974111E460D1D003B70CD /* darkbright */,
+				8F9974251E460D1D003B70CD /* darkbrightTests */,
+				8F9974301E460D1D003B70CD /* darkbrightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F9974101E460D1D003B70CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9974201E460D1D003B70CD /* LaunchScreen.storyboard in Resources */,
+				8F99741D1E460D1D003B70CD /* Assets.xcassets in Resources */,
+				8F99741B1E460D1D003B70CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9974241E460D1D003B70CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F99742F1E460D1D003B70CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00813791AE58231529E33685 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0F777350704D81BB1784255F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-darkbright/Pods-darkbright-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF7ABFF6866CB30ECD49960 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5096466A320C1AA95F4A47C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-darkbrightTests/Pods-darkbrightTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C5CD8690CA561A31AAA5C8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-darkbrightUITests/Pods-darkbrightUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B71589D892275C1A10301773 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-darkbrightUITests/Pods-darkbrightUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC1907C7524BC6BABB807301 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C157E5AF1B8A93C48E92A443 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-darkbright/Pods-darkbright-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F118ED8B32CAF745148A6615 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-darkbrightTests/Pods-darkbrightTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F99740E1E460D1D003B70CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9974181E460D1D003B70CD /* ViewController.swift in Sources */,
+				8F9974161E460D1D003B70CD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9974221E460D1D003B70CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F99742B1E460D1D003B70CD /* darkbrightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F99742D1E460D1D003B70CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9974361E460D1D003B70CD /* darkbrightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F9974281E460D1D003B70CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F9974111E460D1D003B70CD /* darkbright */;
+			targetProxy = 8F9974271E460D1D003B70CD /* PBXContainerItemProxy */;
+		};
+		8F9974331E460D1D003B70CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F9974111E460D1D003B70CD /* darkbright */;
+			targetProxy = 8F9974321E460D1D003B70CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F9974191E460D1D003B70CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F99741A1E460D1D003B70CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F99741E1E460D1D003B70CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F99741F1E460D1D003B70CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F9974381E460D1E003B70CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F9974391E460D1E003B70CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F99743B1E460D1E003B70CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C16E7222ED95435F3635302 /* Pods-darkbright.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = darkbright/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threeonefour.darkbright;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8F99743C1E460D1E003B70CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129CA89029C39151FB990DE0 /* Pods-darkbright.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = darkbright/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threeonefour.darkbright;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8F99743E1E460D1E003B70CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D0DCC8263461BCD717A9CF /* Pods-darkbrightTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = darkbrightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threeonefour.darkbrightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/darkbright.app/darkbright";
+			};
+			name = Debug;
+		};
+		8F99743F1E460D1E003B70CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2334878C3485FB992176B07 /* Pods-darkbrightTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = darkbrightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threeonefour.darkbrightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/darkbright.app/darkbright";
+			};
+			name = Release;
+		};
+		8F9974411E460D1E003B70CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45AA551FF079CEF3956DE59 /* Pods-darkbrightUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = darkbrightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threeonefour.darkbrightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = darkbright;
+			};
+			name = Debug;
+		};
+		8F9974421E460D1E003B70CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04338586DF1EB841EE19B109 /* Pods-darkbrightUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = darkbrightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threeonefour.darkbrightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = darkbright;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F99740D1E460D1D003B70CD /* Build configuration list for PBXProject "darkbright" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9974381E460D1E003B70CD /* Debug */,
+				8F9974391E460D1E003B70CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F99743A1E460D1E003B70CD /* Build configuration list for PBXNativeTarget "darkbright" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F99743B1E460D1E003B70CD /* Debug */,
+				8F99743C1E460D1E003B70CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F99743D1E460D1E003B70CD /* Build configuration list for PBXNativeTarget "darkbrightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F99743E1E460D1E003B70CD /* Debug */,
+				8F99743F1E460D1E003B70CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F9974401E460D1E003B70CD /* Build configuration list for PBXNativeTarget "darkbrightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9974411E460D1E003B70CD /* Debug */,
+				8F9974421E460D1E003B70CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F99740A1E460D1D003B70CD /* Project object */;
+}

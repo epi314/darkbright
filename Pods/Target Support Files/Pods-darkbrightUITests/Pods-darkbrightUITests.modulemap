@@ -1,0 +1,6 @@
+framework module Pods_darkbrightUITests {
+  umbrella header "Pods-darkbrightUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

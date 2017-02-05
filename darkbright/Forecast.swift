@@ -34,8 +34,7 @@ class Forecast {
             _date = Date()
         }
         let df = DateFormatter()
-        df.dateStyle = .medium
-        df.timeStyle = .none
+        df.dateFormat = "dd MMM YYYY"
         if let empty = _timezone?.isEmpty {
             if !empty {
                 df.timeZone = TimeZone(identifier: _timezone!)
@@ -75,6 +74,11 @@ class Forecast {
         }
         
         return _maxTemp!
+    }
+    
+    var hiLowTemperature: String {
+        let hilo = "\(self.maximumTemperature)°/\(self.minimumTemperature)°"
+        return hilo
     }
     
     init(forecast: Dictionary<String, AnyObject>) {

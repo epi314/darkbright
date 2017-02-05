@@ -40,6 +40,15 @@ class WeatherForecast {
         return _temperature
     }
     
+    var temperatureDegrees: String {
+        let degrees = "\(self.temperature)°"
+        return degrees
+    }
+    
+    var isDaytime: Bool {
+        return _date.isDaytime()
+    }
+    
     var forecasts: [Forecast] {
         return _forecasts
     }
@@ -93,6 +102,8 @@ class WeatherForecast {
                                 forecast.timezone = wf._timezone
                                 wf._forecasts.append(forecast)
                             }
+                            
+                            wf._forecasts.removeFirst()
                         }
                     }
                     
